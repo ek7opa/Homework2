@@ -3,4 +3,4 @@ const fact = function(a) {
 		return 1;
 	return a * fact(a-1);
 	};
-console.log(fact(10));
+// to print console.log(fact(n)); 

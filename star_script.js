@@ -15,4 +15,4 @@ const comb = function(n, m=1) {
 	return "";
 	return space(n-1)+star(m)+'\n' + comb(n-1,m+1);
 };
-  console.log(comb(5));
+//to print console.log(comb(n)); where n is the number of vertical lines :)
